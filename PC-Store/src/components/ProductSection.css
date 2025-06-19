@@ -1,0 +1,12 @@
+.product-section {
+  background-color: #fff;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.view-more:hover {
+  color: #b70016 !important;
+} 

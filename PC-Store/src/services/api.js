@@ -32,6 +32,21 @@ export const categoryAPI = {
   getById: (id) => api.get(`/categories/${id}`),
 };
 
+// Navigation APIs
+export const navigationAPI = {
+  getAll: () => api.get('/navigation'),
+};
+
+// Site Info APIs
+export const siteInfoAPI = {
+  get: () => api.get('/siteInfo'),
+};
+
+// Footer Links APIs
+export const footerLinksAPI = {
+  get: () => api.get('/footerLinks'),
+};
+
 // Helper function to handle errors
 export const handleAPIError = (error) => {
   if (error.response) {

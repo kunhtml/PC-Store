@@ -1,0 +1,162 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-top {
+  background-color: #f5f5f5;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.header-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hotline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #d70018;
+  font-weight: 600;
+}
+
+.header-right a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.header-right a:hover {
+  color: #d70018;
+}
+
+.header-main {
+  padding: 15px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.logo h1 {
+  color: #d70018;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.logo span {
+  font-size: 14px;
+  color: #666;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  max-width: 500px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px 15px;
+  border-right: none;
+  border-color: #d70018;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #d70018;
+  box-shadow: none;
+}
+
+.search-btn {
+  background-color: #d70018;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-btn:hover {
+  background-color: #b70016;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.cart:hover {
+  background-color: #f5f5f5;
+}
+
+.cart i {
+  font-size: 24px;
+  color: #d70018;
+}
+
+.cart-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #d70018;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.cart-text {
+  color: #333;
+  font-weight: 500;
+}
+
+.cart-wrapper {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-wrapper:hover {
+  background-color: #f5f5f5;
+}
+
+/* Override Bootstrap styles for search button */
+.input-group .btn-danger {
+  background-color: #d70018;
+  border-color: #d70018;
+}
+
+.input-group .btn-danger:hover {
+  background-color: #b70016;
+  border-color: #b70016;
+} 

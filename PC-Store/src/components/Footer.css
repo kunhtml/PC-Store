@@ -1,0 +1,118 @@
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.footer-top {
+  border-bottom: 1px solid #333;
+}
+
+.footer h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #d70018;
+}
+
+.footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-info p {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-info i {
+  color: #d70018;
+  width: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-links a {
+  width: 36px;
+  height: 36px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #d70018;
+  transform: translateY(-3px);
+  color: #fff;
+}
+
+/* Override Bootstrap form styles */
+.newsletter-form .form-control {
+  background-color: #2a2a2a;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+.newsletter-form .form-control:focus {
+  background-color: #2a2a2a;
+  border-color: #d70018;
+  color: #fff;
+  box-shadow: none;
+}
+
+.newsletter-form .btn-danger {
+  background-color: #d70018;
+  border-color: #d70018;
+}
+
+.newsletter-form .btn-danger:hover {
+  background-color: #b70016;
+  border-color: #b70016;
+}
+
+.payment-icons {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.footer-bottom {
+  background-color: #111;
+}
+
+.footer-bottom p {
+  font-size: 0.875rem;
+  color: #999;
+}
+
+@media (max-width: 992px) {
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+} 

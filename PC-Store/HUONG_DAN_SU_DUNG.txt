@@ -1,0 +1,50 @@
+========================================
+HUONG DAN SU DUNG PC STORE
+========================================
+
+1. CAI DAT LAN DAU:
+   - Mo terminal/cmd trong thu muc project
+   - Chay lenh: npm install
+   - Doi cho den khi cai dat hoan tat
+
+2. CHAY UNG DUNG:
+   - Click dup vao file: START.bat
+   - Ung dung se tu dong:
+     + Kiem tra va giai phong port
+     + Khoi dong React App (http://localhost:3000)
+     + Khoi dong JSON Server (http://localhost:3001)
+     + Mo trinh duyet sau 3 giay
+
+3. DUNG SERVER:
+   - Nhan Ctrl+C trong cua so console
+   - Chon Y de xac nhan
+
+4. BUILD PRODUCTION:
+   - Mo terminal/cmd
+   - Chay lenh: npm run build
+   - File build se nam trong folder: build/
+
+5. LUU Y:
+   - START.bat se tu dong kill process dang chiem port
+   - Du lieu duoc luu trong file db.json
+   - Neu gap loi, hay dong tat ca cua so console va thu lai
+
+6. CAU TRUC THU MUC:
+   PC-Store/
+   ├── src/           (Source code React)
+   ├── public/        (Static files)
+   ├── build/         (Production build - sau khi build)
+   ├── db.json        (Database)
+   ├── package.json   (Dependencies)
+   └── START.bat      (File khoi dong)
+
+7. CAC LENH CO BAN:
+   - npm install      : Cai dat dependencies
+   - npm start        : Chi chay React app
+   - npm run server   : Chi chay JSON server
+   - npm run dev      : Chay ca hai server
+   - npm run build    : Build production
+
+========================================
+Chuc ban su dung vui ve!
+======================================== 

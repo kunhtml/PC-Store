@@ -6,6 +6,7 @@
   z-index: 1000;
 }
 
+<<<<<<< Updated upstream
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -79,6 +80,16 @@
   border-radius: 4px 0 0 4px;
   font-size: 14px;
   outline: none;
+=======
+.logo h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.search-input {
+  border-right: none;
+  border-color: #d70018;
+>>>>>>> Stashed changes
 }
 
 .search-input:focus {
@@ -86,6 +97,7 @@
   box-shadow: none;
 }
 
+<<<<<<< Updated upstream
 .search-btn {
   background-color: #d70018;
   color: white;
@@ -141,6 +153,8 @@
   font-weight: 500;
 }
 
+=======
+>>>>>>> Stashed changes
 .cart-wrapper {
   cursor: pointer;
   transition: background-color 0.3s;

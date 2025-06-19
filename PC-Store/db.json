@@ -1,0 +1,337 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop ASUS TUF Gaming F15 FX506LH",
+      "category": "laptop",
+      "image": "https://via.placeholder.com/300x300/FF6B6B/FFFFFF?text=ASUS+TUF",
+      "specs": ["Intel Core i5-10300H", "8GB RAM", "SSD 512GB", "GTX 1650"],
+      "price": 18990000,
+      "originalPrice": 22990000,
+      "sale": true,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Laptop MSI Gaming GF63 Thin 11SC",
+      "category": "laptop",
+      "image": "https://via.placeholder.com/300x300/4ECDC4/FFFFFF?text=MSI+GF63",
+      "specs": ["Intel Core i7-11800H", "16GB RAM", "SSD 512GB", "RTX 3050"],
+      "price": 21990000,
+      "originalPrice": 25990000,
+      "sale": true,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Laptop Dell Gaming G15 5515",
+      "category": "laptop",
+      "image": "https://via.placeholder.com/300x300/45B7D1/FFFFFF?text=Dell+G15",
+      "specs": ["AMD Ryzen 7 5800H", "16GB RAM", "SSD 512GB", "RTX 3060"],
+      "price": 26990000,
+      "originalPrice": 29990000,
+      "sale": true,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Laptop Lenovo Legion 5 15ACH6",
+      "category": "laptop",
+      "image": "https://via.placeholder.com/300x300/F7DC6F/FFFFFF?text=Legion+5",
+      "specs": ["AMD Ryzen 5 5600H", "8GB RAM", "SSD 512GB", "RTX 3050Ti"],
+      "price": 24990000,
+      "originalPrice": 27990000,
+      "sale": true,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "Laptop HP Pavilion Gaming 15",
+      "category": "laptop",
+      "image": "https://via.placeholder.com/300x300/BB8FCE/FFFFFF?text=HP+Pavilion",
+      "specs": ["Intel Core i5-11300H", "8GB RAM", "SSD 256GB", "GTX 1650"],
+      "price": 17990000,
+      "originalPrice": 19990000,
+      "sale": true,
+      "inStock": false,
+      "featured": true
+    },
+    {
+      "id": 6,
+      "name": "PC Gaming Core i5 RTX 3060",
+      "category": "pc",
+      "image": "https://via.placeholder.com/300x300/F1948A/FFFFFF?text=PC+i5+3060",
+      "specs": ["Intel Core i5-12400F", "16GB RAM 3200MHz", "SSD 500GB", "RTX 3060 12GB"],
+      "price": 19990000,
+      "originalPrice": null,
+      "sale": false,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 7,
+      "name": "PC Gaming AMD Ryzen 5 RTX 3070",
+      "category": "pc",
+      "image": "https://via.placeholder.com/300x300/85C1E2/FFFFFF?text=PC+R5+3070",
+      "specs": ["AMD Ryzen 5 5600X", "16GB RAM 3600MHz", "SSD 1TB", "RTX 3070 8GB"],
+      "price": 27990000,
+      "originalPrice": 32990000,
+      "sale": true,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 8,
+      "name": "PC Văn phòng Core i3",
+      "category": "pc",
+      "image": "https://via.placeholder.com/300x300/A9DFBF/FFFFFF?text=PC+Office",
+      "specs": ["Intel Core i3-10100", "8GB RAM", "SSD 256GB", "Onboard Graphics"],
+      "price": 7990000,
+      "originalPrice": null,
+      "sale": false,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 9,
+      "name": "PC Workstation Xeon",
+      "category": "pc",
+      "image": "https://via.placeholder.com/300x300/F9E79F/FFFFFF?text=Workstation",
+      "specs": ["Intel Xeon E-2226G", "32GB ECC RAM", "SSD 1TB", "Quadro P1000"],
+      "price": 35990000,
+      "originalPrice": null,
+      "sale": false,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 10,
+      "name": "PC Gaming High-End i9 RTX 4090",
+      "category": "pc",
+      "image": "https://via.placeholder.com/300x300/E8DAEF/FFFFFF?text=PC+i9+4090",
+      "specs": ["Intel Core i9-13900K", "32GB RAM 5600MHz", "SSD 2TB", "RTX 4090 24GB"],
+      "price": 89990000,
+      "originalPrice": 99990000,
+      "sale": true,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 11,
+      "name": "CPU Intel Core i5-12400F",
+      "category": "component",
+      "image": "https://via.placeholder.com/300x300/AED6F1/FFFFFF?text=i5-12400F",
+      "specs": ["6 Cores 12 Threads", "2.5GHz up to 4.4GHz", "18MB Cache", "LGA 1700"],
+      "price": 3990000,
+      "originalPrice": 4590000,
+      "sale": true,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 12,
+      "name": "VGA NVIDIA RTX 3060 12GB",
+      "category": "component",
+      "image": "https://via.placeholder.com/300x300/FADBD8/FFFFFF?text=RTX+3060",
+      "specs": ["12GB GDDR6", "192-bit", "HDMI 2.1", "3x DisplayPort 1.4a"],
+      "price": 8990000,
+      "originalPrice": null,
+      "sale": false,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 13,
+      "name": "RAM Kingston Fury 16GB DDR4",
+      "category": "component",
+      "image": "https://via.placeholder.com/300x300/D5DBDB/FFFFFF?text=RAM+16GB",
+      "specs": ["16GB (2x8GB)", "DDR4 3200MHz", "CL16", "RGB LED"],
+      "price": 1590000,
+      "originalPrice": 1890000,
+      "sale": true,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 14,
+      "name": "SSD Samsung 980 Pro 1TB",
+      "category": "component",
+      "image": "https://via.placeholder.com/300x300/F8C471/FFFFFF?text=SSD+1TB",
+      "specs": ["1TB NVMe M.2", "Read: 7000MB/s", "Write: 5000MB/s", "PCIe 4.0"],
+      "price": 2990000,
+      "originalPrice": null,
+      "sale": false,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 15,
+      "name": "Mainboard ASUS ROG Strix B660",
+      "category": "component",
+      "image": "https://via.placeholder.com/300x300/A3E4D7/FFFFFF?text=B660+ROG",
+      "specs": ["Socket LGA 1700", "DDR4", "PCIe 5.0", "WiFi 6"],
+      "price": 4990000,
+      "originalPrice": 5990000,
+      "sale": true,
+      "inStock": false,
+      "featured": true
+    },
+    {
+      "id": 16,
+      "name": "Laptop ASUS Vivobook 15",
+      "category": "laptop",
+      "image": "https://via.placeholder.com/300x300/FFB6C1/FFFFFF?text=Vivobook+15",
+      "specs": ["Intel Core i3-1115G4", "8GB RAM", "SSD 256GB", "Intel UHD Graphics"],
+      "price": 11990000,
+      "originalPrice": null,
+      "sale": false,
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 17,
+      "name": "PC Mini Office",
+      "category": "pc",
+      "image": "https://via.placeholder.com/300x300/98FB98/FFFFFF?text=Mini+PC",
+      "specs": ["Intel Core i5-10400", "8GB RAM", "SSD 256GB", "Intel UHD 630"],
+      "price": 9990000,
+      "originalPrice": null,
+      "sale": false,
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 18,
+      "name": "PSU Corsair RM850x 850W",
+      "category": "component",
+      "image": "https://via.placeholder.com/300x300/DDA0DD/FFFFFF?text=PSU+850W",
+      "specs": ["850W", "80+ Gold", "Fully Modular", "10 Year Warranty"],
+      "price": 3290000,
+      "originalPrice": null,
+      "sale": false,
+      "inStock": true,
+      "featured": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "laptop",
+      "name": "Laptop",
+      "icon": "fas fa-laptop"
+    },
+    {
+      "id": "pc",
+      "name": "PC - Máy bộ",
+      "icon": "fas fa-desktop"
+    },
+    {
+      "id": "component",
+      "name": "Linh kiện",
+      "icon": "fas fa-microchip"
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "image": "https://via.placeholder.com/1200x400/FF0000/FFFFFF?text=SALE+50%25+LAPTOP+GAMING",
+      "alt": "Sale Laptop Gaming",
+      "link": "/sale-laptop"
+    },
+    {
+      "id": 2,
+      "image": "https://via.placeholder.com/1200x400/0066CC/FFFFFF?text=PC+GAMING+CHOI+TET",
+      "alt": "PC Gaming",
+      "link": "/pc-gaming"
+    },
+    {
+      "id": 3,
+      "image": "https://via.placeholder.com/1200x400/FF6600/FFFFFF?text=MAN+HINH+GIAM+GIA+30%25",
+      "alt": "Màn hình giảm giá",
+      "link": "/monitors-sale"
+    }
+  ],
+  "navigation": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "link": "/laptop",
+      "icon": "fas fa-laptop"
+    },
+    {
+      "id": 2,
+      "name": "PC Văn phòng",
+      "link": "/pc-office",
+      "icon": "fas fa-desktop"
+    },
+    {
+      "id": 3,
+      "name": "PC Gaming",
+      "link": "/pc-gaming",
+      "icon": "fas fa-gamepad"
+    },
+    {
+      "id": 4,
+      "name": "Linh kiện",
+      "link": "/components",
+      "icon": "fas fa-microchip"
+    },
+    {
+      "id": 5,
+      "name": "Màn hình",
+      "link": "/monitors",
+      "icon": "fas fa-tv"
+    },
+    {
+      "id": 6,
+      "name": "Phụ kiện",
+      "link": "/accessories",
+      "icon": "fas fa-keyboard"
+    },
+    {
+      "id": 7,
+      "name": "Thiết bị lưu trữ",
+      "link": "/storage",
+      "icon": "fas fa-hdd"
+    },
+    {
+      "id": 8,
+      "name": "Thiết bị mạng",
+      "link": "/network",
+      "icon": "fas fa-network-wired"
+    }
+  ],
+  "siteInfo": {
+    "name": "PC Store",
+    "tagline": "Máy tính & Linh kiện",
+    "hotline": "1900 1234",
+    "email": "support@pcstore.vn",
+    "address": "123 Nguyễn Trãi, Thanh Xuân, Hà Nội",
+    "workingHours": "8:00 - 21:00",
+    "social": {
+      "facebook": "https://facebook.com/pcstore",
+      "youtube": "https://youtube.com/pcstore",
+      "instagram": "https://instagram.com/pcstore",
+      "twitter": "https://twitter.com/pcstore"
+    }
+  },
+  "footerLinks": {
+    "about": [
+      { "name": "Giới thiệu công ty", "link": "/about" },
+      { "name": "Hệ thống showroom", "link": "/stores" },
+      { "name": "Chính sách bảo hành", "link": "/warranty" },
+      { "name": "Chính sách đổi trả", "link": "/return" },
+      { "name": "Hướng dẫn thanh toán", "link": "/payment" }
+    ],
+    "support": [
+      { "name": "Chính sách giao hàng", "link": "/shipping" },
+      { "name": "Hướng dẫn mua trả góp", "link": "/installment" },
+      { "name": "Câu hỏi thường gặp", "link": "/faq" },
+      { "name": "Liên hệ hỗ trợ", "link": "/contact" },
+      { "name": "Tra cứu bảo hành", "link": "/warranty-check" }
+    ]
+  }
+} 

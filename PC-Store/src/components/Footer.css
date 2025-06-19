@@ -103,6 +103,7 @@
 .footer-bottom p {
   font-size: 0.875rem;
   color: #999;
+<<<<<<< Updated upstream
 }
 
 @media (max-width: 992px) {
@@ -115,4 +116,6 @@
   .footer-content {
     grid-template-columns: 1fr;
   }
+=======
+>>>>>>> Stashed changes
 } 
